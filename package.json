@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"dev": "nodemon --max_old_space_size=10240 ./src/main.js"
+	},
+	"dependencies": {
+		"@koa/router": "^12.0.1",
+		"jsonwebtoken": "^9.0.2",
+		"koa": "^2.15.1",
+		"koa-bodyparser": "^4.4.1",
+		"moment": "^2.30.1",
+		"mongoose": "^8.2.2",
+		"nodemon": "^3.1.0",
+		"uuid": "^9.0.1"
+	}
+}
